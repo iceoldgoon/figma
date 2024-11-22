@@ -234,6 +234,7 @@ ul li :hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 44px;
     margin-top: 50px;
     position: absolute;
     top: 1860px;
@@ -452,8 +453,11 @@ ul li :hover{
 
 .box11{
     background-image:url(./img/Rectangle\ 27.png);
-    width: 1080px;
+    width: 100%;
     height: 512px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .box11 img{
@@ -476,7 +480,7 @@ ul li :hover{
 
 .box12{
     background-image: url(./img/BG.png);
-    width: 1260px;
+    width: 100%;
     height: 428px;
     margin-top: 60px;
     display: flex;
@@ -661,4 +665,224 @@ ul li :hover{
     background-image: url(./img/Rectangle\ 33.jpg);
     width: 100%;
     height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Cantact_header h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 52px;
+    font-weight: 700;
+    padding: 200px 0 0 0;
+}
+
+.contanct_box__img img{
+    width: 530px;
+    height: 481px;
+}
+
+.cantanct_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contanct_box__info h1{
+    color: rgba(5, 96, 136, 1);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.ss{
+    display: flex; 
+    align-items: center;
+    gap: 50px;
+}
+
+.ss p{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sss{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contanct_box__info button{
+    background-color: rgba(5, 96, 136, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    border: none;
+}
+
+.contact_button{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact_button h1{
+    color: rgba(5, 96, 136, 1);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 30px 0;
+}
+
+.buttons button{
+    padding: 15px 20px;
+    background-color: rgba(5, 96, 136, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.gallery_header{
+    background-image: url(./img/Rectangle\ 33.jpg);
+    width: 100%;
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery_header h1{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 52px;
+    padding: 200px 0 0 0;
+    text-align: center;
+}
+
+.gallery_card__img img{
+    width: 420px;
+    height: 250px;
+}
+
+.gallery_card__info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 420px;
+    gap: 15px;
+}
+
+.gallery_card__info h1{
+    color: rgba(5, 96, 136, 1);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.gallery_card__info span{
+    color: rgba(67, 67, 67, 1);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.gallery_card__info button{
+    padding: 15px 10px;
+    background-color: rgba(5, 96, 136, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+}
+
+.gallery_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.See_more{
+    color: rgba(5, 96, 136, 1);
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.News_header{
+    background-image: url(./img/Rectangle\ 33.jpg);
+    width: 100%;
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.News_header h1{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 52px;
+    padding: 200px 0 0 0;
+    text-align: center;
+}
+
+.rasm1{
+    padding: 50px 0 0 30px;
+}
+
+.rasm_info{
+    position: absolute;
+}
+
+.rasm1 img{
+    width: 1300px;
+    height: 436px;
+}
+
+.rasm_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 350px;
+    gap: 500px;
+    position: absolute;
+}
+
+.rasm_info h1{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.rasm_info h2{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rasm2{
+    position: relative;
+    bottom: 100px;
+    z-index: -1;
+}
+
+.rasm2 img{
+    width: 100%;
+    height: 580px;
+}
+
+.processdetails_header{
+    background-image: url(./img/Rectangle\ 33.jpg);
+    width: 100%;
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

@@ -25,7 +25,6 @@ function About() {
       </div>
       <div className="about_home_img"><img className='rectangle_6' src={rectangle6} alt="" /></div>
     </div>
-    <h1>salom</h1>
     </>
     
   )
