@@ -1,6 +1,6 @@
 import React from 'react'
 import rasm1 from '../img/newsImg/e8658a5929d5cfd0e7d8d87bbeb70edd.jpg'
-import rasm2 from '../img/newsImg/aa5a7bce7dd59a405d1d9342ee0d4eca.jpg'
+import rasm2 from '../img/newsImg/Rectangle 16.png'
 import rasm3 from '../img/newsImg/58ff324090e63c7110b141f764e85766.jpg'
 import rasm4 from '../img/newsImg/ac63b3c8367e8cb2078850f965a7e2b9.jpg'
 import rasm5 from '../img/newsImg/e4ac904faa2e60700e8753022a6c4784.jpg'
